@@ -1,0 +1,12 @@
+받은 원화 입력 : 30000
+
+달러로 환전 결과 : 26.46 달러
+
+
+추가1) 외화 보유액 static 선언
+public static double BALANCE_USD = 500;
+public static double BALANCE_EUR = 500;
+public static double BALANCE_JPY = 100;
+
+
+추가2) 종료 시, 오늘의 매출 모두 저장하기 File or DB
